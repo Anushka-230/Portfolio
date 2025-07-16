@@ -16,3 +16,13 @@ togglebtn.addEventListener('click', () => {
     isDark = !isDark;
     togglebtn.innerText = isDark ? '☀️ Light Mode' : '🌙 Dark Mode';
 });
+
+
+let portfolio_card=document.getElementById("portfolio");
+portfolio_card.addEventListener("click",()=>{
+    window.open("https://anushka-230.github.io/Portfolio/","_blank");
+})
+let simon_card=document.getElementById("simongame");
+simon_card.addEventListener("click",()=>{
+    window.open("https://anushka-230.github.io/SimonSaysGame/","_blank");
+})
