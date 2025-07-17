@@ -26,3 +26,8 @@ let simon_card=document.getElementById("simongame");
 simon_card.addEventListener("click",()=>{
     window.open("https://anushka-230.github.io/SimonSaysGame/","_blank");
 })
+
+let todolist=document.getElementById("todolist");
+todolist.addEventListener("click",()=>{
+    window.open("https://anushka-230.github.io/To-Do-List/","_blank");
+})
