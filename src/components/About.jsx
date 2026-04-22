@@ -10,8 +10,8 @@ const About = () => {
         
         <div className="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-8 md:p-12 shadow-sm border border-slate-100 dark:border-slate-800">
           <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-            Hey, I’m <span className="font-semibold text-primary">Anushka</span> — a CS student and full-stack developer who loves creating clean, intuitive, and user-focused digital experiences.
-            I work with React, TypeScript, Tailwind, Node.js, Express, and MongoDB, building interfaces and systems that are fast, accessible, and thoughtfully designed.
+            Hello, I’m <span className="font-semibold text-primary">Anushka Das</span> — a CS student and full-stack developer who loves creating clean, intuitive, and user-focused digital experiences.
+            I work with React, JavaScript, Tailwind, Node.js, Express, and MongoDB, building interfaces and systems that are fast, accessible, and thoughtfully designed.
           </p>
           
           <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-6">

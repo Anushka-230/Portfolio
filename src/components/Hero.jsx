@@ -9,11 +9,11 @@ const Hero = () => {
 
       <div className="max-w-6xl mx-auto w-full flex flex-col md:flex-row-reverse items-center gap-12 relative z-10">
         <div className="w-48 h-48 md:w-80 md:h-80 relative flex-shrink-0 group">
-          <div className="absolute inset-0 bg-primary/20 rounded-full transform group-hover:scale-105 transition-transform duration-500 ease-out"></div>
+          {/* ❌ Removed: bg-primary/20 overlay div that was causing the tinted look */}
           <img
             src="/assets/Passport.jpg"
             alt="Anushka Das"
-            className="w-full h-full object-cover rounded-full shadow-xl border-4 border-white dark:border-slate-800 transform group-hover:scale-[1.02] transition-transform duration-500 ease-out"
+            className="w-full h-full object-cover object-[50%_20%] rounded-full shadow-xl border-4 border-white dark:border-slate-800 transition duration-300 group-hover:scale-105"
           />
         </div>
 

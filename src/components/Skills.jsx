@@ -1,27 +1,26 @@
-import { Code2, MonitorPlay, BrainCircuit } from 'lucide-react';
+import { Code2, Globe, Database, Wrench } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Programming Languages',
+      title: 'Languages',
       icon: <Code2 size={24} className="text-primary" />,
       skills: ['Java', 'C', 'Python', 'JavaScript'],
     },
     {
       title: 'Web Technologies',
-      icon: <MonitorPlay size={24} className="text-primary" />,
-      skills: ['Tailwind CSS', 'React.JS', 'Node.JS', 'Express.JS', 'MongoDB', 'Docker & Kubernetes'],
+      icon: <Globe size={24} className="text-primary" />,
+      skills: ['React.js', 'Node.js', 'Express.js', 'Tailwind CSS'],
     },
     {
-      title: 'Core CS Concepts',
-      icon: <BrainCircuit size={24} className="text-primary" />,
-      skills: [
-        'Data Structures & Algorithms',
-        'Object-Oriented Programming (OOP)',
-        'Operating Systems',
-        'Database Management Systems (DBMS)',
-        'Computer Networks (CN)',
-      ],
+      title: 'Databases',
+      icon: <Database size={24} className="text-primary" />,
+      skills: ['MongoDB', 'MySQL'],
+    },
+    {
+      title: 'Tools & DevOps',
+      icon: <Wrench size={24} className="text-primary" />,
+      skills: ['Git', 'GitHub','Docker (basics)', 'Kubernetes (basics)'],
     },
   ];
 
@@ -34,11 +33,11 @@ const Skills = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           {skillCategories.map((category, index) => (
             <div
               key={index}
-              className="bg-slate-50 dark:bg-slate-800/50 p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 hover:shadow-lg transition-shadow duration-300 group"
+              className="bg-slate-50 dark:bg-slate-800/50 p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 hover:shadow-lg hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 group"
             >
               <div className="flex items-center gap-4 mb-6">
                 <div className="p-3 bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 group-hover:bg-primary/10 transition-colors">
