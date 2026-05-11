@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="w-48 h-48 md:w-80 md:h-80 relative flex-shrink-0 group">
           {/* ❌ Removed: bg-primary/20 overlay div that was causing the tinted look */}
           <img
-            src="/assets/Passport.jpg"
+            src="/assets/Passport.jpeg"
             alt="Anushka Das"
             className="w-full h-full object-cover object-[50%_20%] rounded-full shadow-xl border-4 border-white dark:border-slate-800 transition duration-300 group-hover:scale-105"
           />
